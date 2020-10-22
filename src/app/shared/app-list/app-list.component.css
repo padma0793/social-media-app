@@ -1,0 +1,32 @@
+/* vertical list menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-align: left;
+    line-height: 45px;
+    display: block;
+    color: #ffffff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+img
+{
+    vertical-align: middle; /* | top | bottom */
+}
+
+.clip-left-nav-image {
+    clip-path: circle(15px at center);
+    width: 30px;
+    height: 30px;
+
+}
+
+li:hover {
+    background-color: #3a3b3c;
+    border-radius: 5px;
+}
+/* vertical list menu */
